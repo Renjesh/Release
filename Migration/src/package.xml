@@ -3,6 +3,7 @@
     <types>
         <members>Release__c.Description__c</members>
         <members>Release__c.Release_Date__c</members>
+        <members>Release__c.Status__c</members>
         <name>CustomField</name>
     </types>
     <version>36.0</version>
