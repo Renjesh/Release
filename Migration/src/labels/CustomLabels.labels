@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>SalesNavigatorUrl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SalesNavigatorUrl</shortDescription>
+        <value>https://www.linkedin.com/sales/profile/</value>
+    </labels>
+</CustomLabels>
