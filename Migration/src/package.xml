@@ -5,11 +5,15 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Releases</members>
         <name>CustomTab</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Release__c.Ready_to_deploy</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Release__c.General Release Update</members>
         <name>WorkflowRule</name>
     </types>
     <version>36.0</version>
