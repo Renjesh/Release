@@ -2,11 +2,10 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
         <fullName>Release_is_ready_to_go</fullName>
-        <ccEmails>renjeshraju@gmail.com</ccEmails>
         <description>Release is ready to go</description>
         <protected>false</protected>
         <recipients>
-            <recipient>renjeshraju@gmail.com.sales</recipient>
+            <recipient>integration@00d6a000000ui6wuaa.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
