@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Release__c-Release Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Test</members>
-        <name>FieldSet</name>
+        <members>unfiled$public/Test</members>
+        <name>EmailTemplate</name>
     </types>
     <version>36.0</version>
 </Package>
