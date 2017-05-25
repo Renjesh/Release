@@ -9,29 +9,13 @@
         <operation>Literal</operation>
         <protected>false</protected>
     </fieldUpdates>
-    <outboundMessages>
-        <fullName>Release_Ready</fullName>
-        <apiVersion>39.0</apiVersion>
-        <endpointUrl>http://test</endpointUrl>
-        <fields>Id</fields>
-        <fields>Name</fields>
-        <includeSessionId>false</includeSessionId>
-        <integrationUser>renjeshraju@gmail.com.sales</integrationUser>
-        <name>Release Ready</name>
-        <protected>false</protected>
-        <useDeadLetterQueue>false</useDeadLetterQueue>
-    </outboundMessages>
     <rules>
         <fullName>General Release Update</fullName>
         <actions>
             <name>Ready_to_deploy</name>
             <type>FieldUpdate</type>
         </actions>
-        <actions>
-            <name>Release_Ready</name>
-            <type>OutboundMessage</type>
-        </actions>
-        <active>false</active>
+        <active>true</active>
         <criteriaItems>
             <field>Release__c.Status__c</field>
             <operation>equals</operation>
