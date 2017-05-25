@@ -138,7 +138,7 @@
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>Description_is_required</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>ISBLANK( Description__c )</errorConditionFormula>
         <errorDisplayField>Description__c</errorDisplayField>
         <errorMessage>Description is required to proceed with a release</errorMessage>
