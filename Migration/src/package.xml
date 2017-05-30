@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>unfiled$public/Test</members>
-        <name>EmailTemplate</name>
+        <members>Release_Component__c.Business_Unit__c</members>
+        <members>Release_Component__c.Origin_Case__c</members>
+        <members>Release_Component__c.Release__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>ReleaseComponents</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Release_Component__c-Release Component Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Release_Component__c.Source_Required</members>
+        <name>ValidationRule</name>
     </types>
     <version>36.0</version>
 </Package>
